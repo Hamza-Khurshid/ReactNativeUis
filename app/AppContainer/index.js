@@ -2,6 +2,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 import HomeScreen from '../Home';
 import LoginScreens from '../Login';
 import LoginOne from '../Login/LoginOne';
+import LoginTwo from '../Login/LoginTwo';
 
 const AppNavigator = createStackNavigator({
     Home: {
@@ -12,6 +13,9 @@ const AppNavigator = createStackNavigator({
     },
     LoginOne: {
         screen: LoginOne,
+    },
+    LoginTwo: {
+      screen: LoginTwo
     }
   }, {
       initialRouteName: 'Home',

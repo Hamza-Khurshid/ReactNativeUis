@@ -10,6 +10,10 @@ export default class LoginScreens extends Component {
         this.props.navigation.navigate('LoginOne');
     }
 
+    home2BtnHadnler = () => {
+        this.props.navigation.navigate('LoginTwo');
+    }
+
     render() {
         return (
             <View style={styles.container}>
@@ -19,7 +23,7 @@ export default class LoginScreens extends Component {
                     </Button>
                 </View>
                 <View style={styles.btnView}>
-                    <Button block success onPress={this.homeBtnHadnler}>
+                    <Button block success onPress={this.home2BtnHadnler}>
                         <Text style={{color: "white"}}>Login 2</Text>
                     </Button>
                 </View>
