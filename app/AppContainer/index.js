@@ -14,7 +14,7 @@ const AppNavigator = createStackNavigator({
         screen: LoginOne,
     }
   }, {
-      initialRouteName: 'LoginOne',
+      initialRouteName: 'Home',
   });
 
   const AppContainer = createAppContainer(AppNavigator);

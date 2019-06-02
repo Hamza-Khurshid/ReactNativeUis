@@ -109,7 +109,8 @@ const styles = StyleSheet.create({
   button: {
     width: '100%',
     paddingLeft: 25,
-    paddingRight: 25
+    paddingRight: 25,
+    marginBottom: 10
   },
   rowView: {
     justifyContent: 'space-around',
@@ -123,10 +124,10 @@ const styles = StyleSheet.create({
     color: 'white'
   }, 
   text0: {
-    color: '#e3e3e3',
+    color: '#888888',
   }, 
   text1: {
-    color: '#e3e3e3',
+    color: '#888888',
     textDecorationLine: 'underline',
   }
 });
